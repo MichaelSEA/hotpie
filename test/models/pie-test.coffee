@@ -94,7 +94,7 @@ describe 'Pie', ->
         assert.equal pies.length, 4
       it "has correct name", ->
         [pie, other...] = pies
-        assert.equal pie.name, 'Cherry'
+        assert.equal pie.name, 'Apple'
     describe "what's warm", (done) ->
       pies = null
       before (done) ->
@@ -133,4 +133,3 @@ describe 'Pie', ->
   describe "validation", ->
     it "only allows 'sweet' and 'savory' for type"
     it "requires a name"
-

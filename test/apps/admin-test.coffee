@@ -110,7 +110,7 @@ describe 'admin', ->
       it "greets user by name", ->
         assert.hasTag body, '//div[@id="toolbar"]/ul/span', "Howdy, piechef!"
       it "displays a pie", ->
-        assert.hasTagMatch body, "//li[@class='sweet']", /Cherry/
+        assert.hasTagMatch body, "//li[@class='sweet']", /Apple/
       it "displays state of pie", ->
         xpath = "//li[@class='savory']/div[@class='status']/div[@class='making on']/p"
         assert.hasTag body, xpath, 'oven'
