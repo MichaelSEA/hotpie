@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# npm run-script devserver
+./node_modules/node-dev/bin/node-dev server.js
